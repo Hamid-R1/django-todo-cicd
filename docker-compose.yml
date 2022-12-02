@@ -1,0 +1,6 @@
+version : "3.3"
+services :
+  web :
+    build : .
+    ports :
+        - "8001:8001" #ports ek list hota hai, isiliye isko list me write krte hai. ##
